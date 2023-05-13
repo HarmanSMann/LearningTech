@@ -8,6 +8,7 @@ Looking into:
 CSS
 Three.js
 Typescript -> Light Lesson
+Angular -> Medium Lesson
 C# -> Heavy Learning
 .Net -> Light Learning
 Dart
