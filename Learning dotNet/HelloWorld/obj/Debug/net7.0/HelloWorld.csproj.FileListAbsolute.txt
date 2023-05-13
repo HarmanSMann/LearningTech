@@ -1,0 +1,15 @@
+D:\LearningTech\Learning dotNet\HelloWorld\bin\Debug\net7.0\HelloWorld.exe
+D:\LearningTech\Learning dotNet\HelloWorld\bin\Debug\net7.0\HelloWorld.deps.json
+D:\LearningTech\Learning dotNet\HelloWorld\bin\Debug\net7.0\HelloWorld.runtimeconfig.json
+D:\LearningTech\Learning dotNet\HelloWorld\bin\Debug\net7.0\HelloWorld.dll
+D:\LearningTech\Learning dotNet\HelloWorld\bin\Debug\net7.0\HelloWorld.pdb
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.AssemblyReference.cache
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfoInputs.cache
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfo.cs
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\HelloWorld.dll
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
+D:\LearningTech\Learning dotNet\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll
