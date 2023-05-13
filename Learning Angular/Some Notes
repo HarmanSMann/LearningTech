@@ -1,0 +1,7 @@
+CLI is useful for getting things started
+    - some main commands include
+        - ng new <NAME OF PROJECT>
+        - ng serve
+        - ng build
+        - ng -g TYPE NAME
+        
