@@ -1,0 +1,17 @@
+dotnet run to run 
+dotnet new console
+
+really similar to C back when you learned it
+
+Finished opverview, it is the basics of C
+Program flow follows how we do the conditional statements and how operations continue to function
+    one good usecase is videogames. 
+        -> enemy designs and how they react to seeing the player character
+        -> while player seen, chase
+
+    Follows, if,m switch, while, for, breaks, continue, exceptions
+    using foreach instead of for
+        foreach (i in n) { do something }
+        foreach (char c in str) { do something }
+    using do while look
+        do { something }  while (condition)
