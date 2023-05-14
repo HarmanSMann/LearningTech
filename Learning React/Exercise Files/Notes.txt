@@ -1,4 +1,5 @@
-Solving that missing key issue: Ch04 - 4
+Solving that missing key issue: 
+Ch04 - 4
 
 These are the items we have:
 
@@ -58,3 +59,73 @@ leaving a blank return means it will only run with
   that item once and not multiple, which explains 
   why when we did the project, it kept refreshing 
   infinitely.
+
+ch05 - looks more deeply into those hooks we used during the project, should help
+  sandbox for items: usehooks.com
+
+ch06 asynch (ALOT HERE, alot of goog apis and grabs)
+
+when using useEffect and you call to an api, and you want to avoid repeated calls to
+  the api, DO NOT include it in the return block, will cause you future problems in the API fetchs
+
+you can use fetch instead of axios, but it depends on what you are grabbing
+Example from ch06 - 1
+  useEffect(() => {
+    fetch(
+      `https://api.github.com/users/moonhighway`
+    )
+      .then((response) => response.json())
+      .then(setData);
+  }, []);
+
+  if (data) {do something}
+
+
+You can also use this for when you need time to load things:
+
+error calls:
+
+if (loading) return loading icon
+if (error) return error from json
+if (no data) return nothing
+
+ch06 - 4 - some graphQL
+
+// you can write a query to fetch informatoin
+  const query = `
+  query {
+    allLifts {
+      name
+      elevationGain
+      status
+    }
+  }
+  `;
+
+create a posting to format the information
+  const opts = {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ query })
+};
+
+Will organize the information
+function Lift({ name, elevationGain, status }) {
+  return (
+    <div>
+      <h1>{name}</h1>
+      <p>
+        {elevationGain} {status}
+      </p>
+    </div>
+  );
+}
+
+short form of reactFragement:
+<></> thats is nice
+
+
+Ch 07 - Using Routers, this is going to allow you to have
+  multiple pages (for your future portfolio website)
+
+  npm install react-router-dom (they did @6 at the end, for version controlling)
