@@ -1,6 +1,8 @@
 dotnet run to run 
 dotnet new console
 
+stuff is outdated, running version 5, but version 7 is out.
+
 really similar to C back when you learned it
 
 Finished opverview, it is the basics of C
@@ -15,3 +17,22 @@ Program flow follows how we do the conditional statements and how operations con
         foreach (char c in str) { do something }
     using do while look
         do { something }  while (condition)
+
+
+classes
+Interesting Use
+        public string Name {
+            get {
+                return _name;
+            }
+            set {
+                _name = value;
+            }
+        }
+
+            public string Author {
+            get => _author;
+            set => _author = value;
+        }
+
+        Short handed
