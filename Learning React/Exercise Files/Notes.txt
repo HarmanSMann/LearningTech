@@ -129,3 +129,22 @@ Ch 07 - Using Routers, this is going to allow you to have
   multiple pages (for your future portfolio website)
 
   npm install react-router-dom (they did @6 at the end, for version controlling)
+
+  in the index.js, we need to export the functikons for each of the pages and include that information in the index.js
+  in the future you would make those seperate pages (organization)
+
+
+ch07 - Nesting to show history
+  Could be some good usecases to see how thing are rolling. 
+    adding router inside a router, using the Outlet call from react router dom
+    The way it is used here is to manage the subpages inside sections:
+    about me: History -> learning, hobbies, blogs, that could be subpages 
+
+ch08 - testing, deploying
+
+  using expect features
+  all of it is well documented on Jest
+
+
+Netlify, deployment
+create build, then deploy
