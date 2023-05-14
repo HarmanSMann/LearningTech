@@ -1,9 +1,10 @@
 ﻿using System;
-
 namespace Inheritance
 {
     class Program
     {
+        public static global::System.Object Console { get; private set; }
+
         static void Main(string[] args)
         {
             // Create some publications
