@@ -1,0 +1,24 @@
+Downloading mongo and setting it up in the Server
+
+Use Homebrew: brew.sh
+
+cmd: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+cmd: bew install mongodb-community@5.0 (this version from the video, ut we are on version 7 now)
+
+make a new fodler to store mongodb data
+
+cmd: mongod --dbpath ./mongo-db-data/
+
+cmd: mongo
+opens a mongodb
+cmd: use name
+cmd: db.articles.insertMany(json info)
+
+This will put your data in
+
+
+now
+cmd: npm install mongodb on server code
+
+
