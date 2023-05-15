@@ -1,0 +1,9 @@
+The build folder will be copied voer to the node.js, server side because we are tring to use node
+
+app.get(/^(?!\/api).+/, (req, res) => {
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+})
+
+checks for the api locaiton, and setups use for client code
+
+when you are looking for setting it upp, we need to setup an offical port to use too, like the .env stuff

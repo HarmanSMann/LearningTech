@@ -1,0 +1,26 @@
+for protecting your endpoints, you need credientials for that stuff
+
+CHECK ALL OF SERVER.JS
+
+const credentials = JSON.parse(
+    fs.readFileSync('../credentials.json')
+);
+
+admin.initializeApp({
+    credential: admin.credential.cert(credentials),
+});
+
+IMPORTANT
+app.use(async (req, res, next) => {
+    const { authtoken } = req.headers;
+
+    if (authtoken) {
+        try {
+            req.user = await admin.auth().verifyIdToken(authtoken);
+        } catch (e) {
+            res.sendStatus(400);
+        }
+    }
+
+    next();
+});
