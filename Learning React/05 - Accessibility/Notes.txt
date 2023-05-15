@@ -1,0 +1,8 @@
+Semantic tags   form, table, aside
+    nav, article, main
+    browser can understand stuff like this
+fragmens will avoid extra div tags
+    written: React.Fragement, Fragment, <></>
+
+Keyboard focus
+Testing accessiblitiy using lighthouse
