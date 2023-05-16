@@ -32,3 +32,21 @@ ch04 - OAuth
     external used
     scope: what info do we need (like filling in resume from linkedin)
     This is setup all on the backend
+
+ch05 - Using AWS Cognito to set things up, 'third part auth'
+
+I skipped around it, 
+but what it does cover based off listening:
+    replcaing db connection to cognitio to handle things
+    
+    what I have seen, you move around endpoints such that they 
+    go to the amazon cognito instead of the links you have setup
+
+
+ch06 - Best Practices
+    HTTPS - wherever youa re going can do it automatically
+    salting and peppering passwords to avoid info grabbing
+    create logic on the backend 
+    front end code is viewable to EVERYONE
+    try and catching informationauth error handing
+    securing db
