@@ -4,3 +4,11 @@ need more power, pay for more power
 
 next is good for serverside stuff, and works with redux
 
+why use ssr and redux   
+    using redux to manage all the stuff we need, so learn it
+
+    Node vs Express
+        routes, HTTP, Express, Node, React
+
+Learning bundling 
+    dynamic usage of items, sending only what they need without extra items
