@@ -24,3 +24,11 @@ ch01 - 12
 ch01 - 16
     Final amount for login functionality
 
+ch04 - OAuth
+    Using google login
+    create a project on google cloud platform
+    add auth access to it
+    will need to ad billing information
+    external used
+    scope: what info do we need (like filling in resume from linkedin)
+    This is setup all on the backend
