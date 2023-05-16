@@ -1,0 +1,26 @@
+For the Login pg you can do something like this to provide extra context
+JWT - Json tokens, 
+mostly used and are incoded information about the uiser to make life easier.
+
+How are they used:
+step 1 - user logs incoded
+2 - server generates a token with the user information
+3 - server send the token to the user
+4 - front end stores it for uses (cookies)
+5 - front end uses the token whenever it needs to move through things, like the privileges you had during the project
+6 - uses the signature to verify uses
+
+ch01 - 8
+    check signUpRoute file
+
+ch01 - 9
+    adding login router
+ch01 - 10
+    implementing token on front end
+ch01 - 11
+    adding to sign up page
+ch01 - 12
+    adding onto login
+ch01 - 16
+    Final amount for login functionality
+

@@ -1,0 +1,6 @@
+Projects in here involve a todoList application
+
+Purpose of Reducer, Thunk, Selector
+manage state, side effect logic, abstracting the stat format, tranforming state data
+
+using mocha and chai for testing

@@ -1,0 +1,2 @@
+understanding how to keep data even when you fill in a form
+ie: filling form, refresh, info gone
