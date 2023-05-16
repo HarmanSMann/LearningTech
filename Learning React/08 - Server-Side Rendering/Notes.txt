@@ -2,3 +2,5 @@ ssr allows scaling
 covers who what whenever
 need more power, pay for more power
 
+next is good for serverside stuff, and works with redux
+
